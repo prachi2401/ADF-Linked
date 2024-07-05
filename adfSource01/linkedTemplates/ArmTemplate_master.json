@@ -7,10 +7,6 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "adfSource01"
 		},
-		"SqlServer1_password": {
-			"type": "secureString",
-			"metadata": "Secure string for 'password' of 'SqlServer1'"
-		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"type": "string",
 			"defaultValue": "https://testkv0987.vault.azure.net/"
@@ -53,9 +49,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"SqlServer1_password": {
-						"value": "[parameters('SqlServer1_password')]"
 					},
 					"AzureKeyVault1_properties_typeProperties_baseUrl": {
 						"value": "[parameters('AzureKeyVault1_properties_typeProperties_baseUrl')]"

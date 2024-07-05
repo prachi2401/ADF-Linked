@@ -5,9 +5,6 @@
 		"factoryName": {
 			"value": "adfSource01"
 		},
-		"SqlServer1_password": {
-			"value": ""
-		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://testkv0987.vault.azure.net/"
 		},
