@@ -65,10 +65,9 @@ jobs:
         resourceGroupName: Shoaib_RG
         # Data factory name
         dataFactoryName: adfTarget01
-        # ARM template file name
-        # armTemplateFile: # optional, default is ARMTemplateForFactory.json
-        # # ARM template parameters file name
-        # armTemplateParametersFile: # optional, default is ARMTemplateParametersForFactory.json
+        armTemplateFile: ./adfSource01/ARMTemplateForFactory.json
+        # ARM template parameters file name
+        armTemplateParametersFile: ./adfSource01/ARMTemplateParametersForFactory.json
         # Parameters which will be replaced in the ARM template
         additionalParameters: factoryName=adfTarget01 SqlServer1_connectionString=${{ env.parameter }} AzureKeyVault1_properties_typeProperties_baseUrl=https://sqlservercred.vault.azure.net/
 
