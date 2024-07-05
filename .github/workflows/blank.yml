@@ -18,6 +18,10 @@ jobs:
     environment:
       name: Test
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+ 
     name: 'This deploys to Production'
     steps:
     - uses: actions/checkout@v3
