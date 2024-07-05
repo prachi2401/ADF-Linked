@@ -37,6 +37,8 @@ jobs:
         subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
         # enable-AzPSSession: true
     - name: Print Parameters
+      env:
+        parameter: "Integrated Security=False;Data Source=10.56.3.24;Initial Catalog=test;User ID=admini"
       run: echo "SqlServer1_connectionString=${{ env.parameter }} AzureKeyVault1_properties_typeProperties_baseUrl=https://sqlservercred.vault.azure.net/"
 
         
