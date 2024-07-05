@@ -67,4 +67,4 @@ jobs:
         deploymentMode: Incremental
         # Supply deployment parameter values. In this simple scenario, 
         # I am only passing the name of the target ADF to which this is being deployed
-        parameters: adfSource01/ARMTemplateParametersForFactory.json factoryName=adfTarget01 SqlServer1_connectionString={{ env.parameter }} AzureKeyVault1_properties_typeProperties_baseUr=https://sqlservercred.vault.azure.net/
+        parameters: adfSource01/ARMTemplateParametersForFactory.json factoryName=adfTarget01 SqlServer1_connectionString=${{ env.parameter }} AzureKeyVault1_properties_typeProperties_baseUr=https://sqlservercred.vault.azure.net/
