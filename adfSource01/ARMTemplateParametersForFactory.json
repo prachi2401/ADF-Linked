@@ -5,17 +5,11 @@
 		"factoryName": {
 			"value": "adfSource01"
 		},
-		"SqlServer1_password": {
-			"value": ""
+		"SqlServer1_connectionString": {
+			"value": "Integrated Security=False;Data Source=test2421.database.windows.net;Initial Catalog=test2125;User ID=admini"
 		},
-		"SqlServer1_properties_typeProperties_server": {
-			"value": "test2421.database.windows.net"
-		},
-		"SqlServer1_properties_typeProperties_database": {
-			"value": "test2125"
-		},
-		"SqlServer1_properties_typeProperties_userName": {
-			"value": "admini"
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://testkv0987.vault.azure.net/"
 		}
 	}
 }
