@@ -1,19 +1,12 @@
 {
 	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
 	"properties": {
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "Integrated Security=False;Data Source=test2421.database.windows.net;Initial Catalog=test2125;User ID=admini",
-			"password": {
-				"type": "AzureKeyVaultSecret",
-				"store": {
-					"referenceName": "AzureKeyVault1",
-					"type": "LinkedServiceReference"
-				},
-				"secretName": "password"
-			}
+			"connectionString": "integrated security=False;data source=test2421.database.windows.net;initial catalog=test2125;user id=admini",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDU1MTZEQjNELTk4NUQtNDMxOS04NUUzLThCOTZBOERCMDk0N18yM2NhYjc4OC1kYWI1LTRkMzgtYjVmYy0yOTRjMTg1NzlmZTciDQp9"
 		}
-	},
-	"type": "Microsoft.DataFactory/factories/linkedservices"
+	}
 }
