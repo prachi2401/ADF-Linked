@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfSource01"
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "test2421.database.windows.net"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "test2125"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "admini"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
